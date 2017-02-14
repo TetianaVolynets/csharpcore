@@ -8,24 +8,23 @@ namespace csharpcore.main.classwork.lesson03
 {
     class MathFunc
     {
-        public int Multiply(int a, int b)
+        public static double Multiply(double a, double b)
         {
             return a * b;
         }
-
-        public double Divide(int a1, int b1)
+        public static double Divide(double a1, double b1)
         {
             return (double)a1 / b1;
         }
 
-        public int Add(int a, int b)
+        public static double Add(double a, double b)
         {
-            return a + b;
+            return (double)a + b;
         }
 
-        public int Minus(int a, int b)
+        public static double Minus(double a, double b)
         {
-            return a - b;
+            return (double)a - b;
         }
     }
 }

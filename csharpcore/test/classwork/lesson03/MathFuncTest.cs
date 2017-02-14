@@ -13,7 +13,6 @@ namespace csharpcore.test.classwork.lesson03
         [TestFixture]
         class MathFuncTests
         {
-            MathFunc mathFunc = new MathFunc();
 
             [Test]
             public void MultiplyTest()
@@ -21,7 +20,7 @@ namespace csharpcore.test.classwork.lesson03
                 int a = 2;
                 int b = 2;
                 int expected = 4;
-                Assert.AreEqual(expected, mathFunc.Multiply(a, b));
+                Assert.AreEqual(expected, MathFunc.Multiply(a, b));
             }
 
 
@@ -31,7 +30,7 @@ namespace csharpcore.test.classwork.lesson03
                 int a = 0;
                 int b = 3;
                 int expected = 1;
-                Assert.AreNotEqual(expected, mathFunc.Multiply(a, b));
+                Assert.AreNotEqual(expected, MathFunc.Multiply(a, b));
             }
             [Test]
             public void DivideTest()
@@ -39,7 +38,7 @@ namespace csharpcore.test.classwork.lesson03
                 int a1 = 3;
                 int b1 = 2;
                 double expected = 1.5d;
-                Assert.AreEqual(expected, mathFunc.Divide(a1, b1));
+                Assert.AreEqual(expected, MathFunc.Divide(a1, b1));
             }
 
             [Test]
@@ -48,7 +47,7 @@ namespace csharpcore.test.classwork.lesson03
                 int a = 5;
                 int b = 1;
                 int expected = 4;
-                Assert.AreEqual(expected, mathFunc.Minus(a, b));
+                Assert.AreEqual(expected, MathFunc.Minus(a, b));
             }
 
             [Test]
@@ -57,7 +56,7 @@ namespace csharpcore.test.classwork.lesson03
                 int a = 1;
                 int b = 2;
                 int expected = 3;
-                Assert.AreEqual(expected, mathFunc.Add(a, b));
+                Assert.AreEqual(expected, MathFunc.Add(a, b));
             }
 
 
@@ -68,14 +67,14 @@ namespace csharpcore.test.classwork.lesson03
                 //int b = 2;
                 //int expected = 0.5d;
                 //Program mathFunc = new Program();
-                Assert.AreEqual(4.4999d, mathFunc.Divide(9, 2), 0.001);
+                Assert.AreEqual(4.4999d, MathFunc.Divide(9, 2), 0.001);
             }
 
             [Test]
             public void DivideTest2()
             {
 
-                Assert.AreEqual(3, mathFunc.Divide(6, 2), 0);
+                Assert.AreEqual(3, MathFunc.Divide(6, 2), 0);
             }
 
             [Test]
@@ -103,7 +102,7 @@ namespace csharpcore.test.classwork.lesson03
             public void Multiply1Test()
             {
 
-                Assert.AreEqual(0, mathFunc.Multiply(10, 0), 0);
+                Assert.AreEqual(0, MathFunc.Multiply(10, 0), 0);
             }
 
             [Test]
@@ -138,28 +137,28 @@ namespace csharpcore.test.classwork.lesson03
             public void AddTest1()
             {
 
-                Assert.AreEqual(-5, mathFunc.Add(-4, -1), 0);
+                Assert.AreEqual(-5, MathFunc.Add(-4, -1), 0);
             }
 
             [Test]
             public void DivideTest3()
             {
 
-                Assert.AreEqual(4, mathFunc.Divide(-4, -1), 0);
+                Assert.AreEqual(4, MathFunc.Divide(-4, -1), 0);
             }
 
             [Test]
             public void DivideTest4()
             {
 
-                Assert.AreEqual(0, mathFunc.Divide(0, -1), 0);
+                Assert.AreEqual(0, MathFunc.Divide(0, -1), 0);
             }
 
             [Test]
             public void DivideTest5()
             {
 
-                Assert.AreEqual(0.333d, mathFunc.Divide(1, 3), 0.01);
+                Assert.AreEqual(0.333d, MathFunc.Divide(1, 3), 0.01);
             }
 
             [Test]

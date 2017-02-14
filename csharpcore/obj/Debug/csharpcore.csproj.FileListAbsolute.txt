@@ -1,1 +1,8 @@
 C:\Projects\csharpcore\csharpcore\bin\Debug\csharpcore.exe.config
+C:\Projects\csharpcore\csharpcore\obj\Debug\csharpcore.csprojResolveAssemblyReference.cache
+C:\Projects\csharpcore\csharpcore\bin\Debug\csharpcore.exe
+C:\Projects\csharpcore\csharpcore\bin\Debug\csharpcore.pdb
+C:\Projects\csharpcore\csharpcore\bin\Debug\nunit.framework.dll
+C:\Projects\csharpcore\csharpcore\bin\Debug\nunit.framework.xml
+C:\Projects\csharpcore\csharpcore\obj\Debug\csharpcore.exe
+C:\Projects\csharpcore\csharpcore\obj\Debug\csharpcore.pdb
