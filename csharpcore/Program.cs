@@ -1,4 +1,5 @@
-﻿using System;
+﻿using csharpcore.main.menus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +9,9 @@ namespace csharpcore
 {
     class Program
     {
-        static void Main(string[] args)
-        {
+        static void Main(string[] args) {
+            Lesson04Menu.Menu();
+
         }
     }
 }
