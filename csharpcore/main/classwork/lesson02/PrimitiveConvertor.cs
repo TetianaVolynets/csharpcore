@@ -10,21 +10,21 @@ namespace csharpcore.main.classwork.lesson02
     {
         public char floatToChar(float float1)
         {
-            char charFloatResult = (char)float1;
-            return charFloatResult;
+             
+            return (char)float1;
 
         }
         public char intToChar(int int1)
         {
-            char charIntResult = (char)int1;
-            return charIntResult;
+            
+            return (char)int1;
 
 
         }
         public int charToInt(char char1)
         {
-            int intCharResult = (int)char1;
-            return intCharResult;
+           
+            return (int)char1;
 
         }
     }

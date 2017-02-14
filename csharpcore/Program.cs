@@ -9,8 +9,35 @@ namespace csharpcore
 {
     class Program
     {
-        static void Main(string[] args) {
-            Lesson04Menu.Menu();
+
+        static void Main(string[] args)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Choose the Lesson number");
+
+                double a = Convert.ToDouble(Console.ReadLine());
+
+                if (a == 4)
+                {
+                    for (int j = 0; j <= 1; j++) {
+                        Lesson04Menu.Menu();
+                    }
+                        
+                    
+                }
+                else if (a == 3)
+                {
+                    Lesson03Menu.Menu();
+                }
+                else if (a == 2)
+                {
+                    Lesson02Menu.Menu();
+                }
+            }
+            Console.ReadLine();
+        
+           
 
         }
     }
